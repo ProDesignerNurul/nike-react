@@ -1,9 +1,28 @@
 .container{
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 .penguin-logo{
     width: 20px;
 }
 .carousel h1{
     font-size: 60px;
+}
+
+.bg-cart-color{
+    background-color: rgb(236, 234, 234);
+}
+.shop-icons{
+    width: 70px;
+}
+
+.header-bg{
+    background-color: rgb(250, 246, 240);
+}
+
+
+@media screen and (max-width: 576px) {
+    .shop-area{
+        flex-direction: column-reverse;
+    }
+    
 }
