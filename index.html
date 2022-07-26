@@ -10,10 +10,143 @@
 
     <!-- Custom CSS Linked  -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awsome Linked  -->
+    <script src="https://kit.fontawesome.com/690119509f.js" crossorigin="anonymous"></script>
+
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    
 
+    <!-- Navbar Design Start  -->
+    <header>
+        <section class="container">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <div>
+                        <span>
+                            <img class="img-fluid penguin-logo" src="logo-img/penguin.png" alt="">
+                        </span>
+                        <span>Penguin Fashion</span>
+                    </div>
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </section>
+    </header>
+    <!-- Navbar Design End  -->
+
+
+    
+    <!-- Carousel Design Start  -->
+    <main>
+        <section class="container">
+            <div id="carouselExampleIndicators" class="carousel slide d-flex justify-content-cneter align-items-center" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-6 pe-5">
+                                <img src="images/carousel-img.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="col-md-6 d-flex align-items-center ps-5">
+                                <div>
+                                    <h1><span class="text-danger">Nike React</span> <br> <span>Infinity Run 2</span></h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Asperiores, provident.</p>
+                                    <button class="btn btn-primary px-4"> <i class="fa-solid fa-cart-plus me-2"></i>Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/carousel-img-2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/carousel-img-3.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+    <!-- Carousel Design End  -->
+
+
+    <!-- Casual Shows Design Start  -->
+        <section class="container">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <div class="bg-secondary">
+                        <img aria-colspan="img-fluid" src="images/carousel-img-2.png" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="images/carousel-img-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="images/pngegg 1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+    <!-- Casual Shows Design End  -->
+    </main>
 
 
 
